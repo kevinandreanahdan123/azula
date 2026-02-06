@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Azula Zurel Alexa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        body {
+            background-color: #f8fafc;
+            font-family: 'Poppins', sans-serif;
+        }
+        .blue-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
+        }
+        .skill-badge {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border: 1px solid #bfdbfe;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: -1.625rem;
+            top: 0.25rem;
+            width: 1rem;
+            height: 1rem;
+            background: #2563eb;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #bfdbfe;
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased p-4 md:p-10">
+
+    <div class="max-w-4xl mx-auto shadow-2xl overflow-hidden rounded-3xl flex flex-col md:flex-row bg-white border border-slate-200">
+        
+        <!-- Sidebar Kiri (Identitas & Kontak) -->
+        <aside class="w-full md:w-80 blue-gradient text-white p-8 flex flex-col">
+            <div class="text-center mb-8">
+                <!-- Foto Profil Placeholder -->
+                <div class="relative inline-block group">
+                    <img src="azula.jpeg" alt="Foto Azula Zurel Alexa" class="w-44 h-44 rounded-2xl border-4 border-white/20 object-cover shadow-2xl mx-auto mb-6 transition-transform group-hover:scale-105">
+                    <div class="absolute -bottom-2 -right-2 bg-blue-500 p-2 rounded-lg shadow-lg">
+                        <i class="fas fa-briefcase text-sm"></i>
+                    </div>
+                </div>
+                <h1 class="text-2xl font-bold tracking-tight">Azula Zurel Alexa</h1>
+                <p class="text-blue-300 font-medium text-sm mt-1 uppercase tracking-widest">Fresh Graduate IPS</p>
+            </div>
+
+            <div class="space-y-8 flex-grow">
+                <!-- Kontak Section -->
+                <section>
+                    <h2 class="text-xs font-bold text-blue-400 uppercase tracking-[0.2em] mb-4">Hubungi Saya</h2>
+                    <div class="space-y-4 text-sm">
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
+                                <i class="fas fa-phone text-blue-300"></i>
+                            </div>
+                            <span>08892896579</span>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
+                                <i class="fas fa-map-marker-alt text-blue-300"></i>
+                            </div>
+                            <span class="leading-relaxed text-blue-100">Jln Dayeuhkolot, Kp Pasigaran, RT 05/09, Desa Citeureup, Dayeuhkolot</span>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
+                                <i class="fab fa-instagram text-blue-300"></i>
+                            </div>
+                            <span>@urell_22</span>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
+                                <i class="fas fa-birthday-cake text-blue-300"></i>
+                            </div>
+                            <span>02 April 2008</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Hobi -->
+                <section>
+                    <h2 class="text-xs font-bold text-blue-400 uppercase tracking-[0.2em] mb-4">Hobi</h2>
+                    <div class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10">
+                        <i class="fas fa-microphone-alt text-xl text-blue-400"></i>
+                        <span class="font-medium">Menyanyi</span>
+                    </div>
+                </section>
+
+                <!-- Bahasa -->
+                <section>
+                    <h2 class="text-xs font-bold text-blue-400 uppercase tracking-[0.2em] mb-4">Bahasa</h2>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span>Indonesia</span>
+                                <span>Fasih</span>
+                            </div>
+                            <div class="w-full bg-white/10 h-1.5 rounded-full overflow-hidden">
+                                <div class="bg-blue-400 h-full w-full"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs mb-1">
+                                <span>Inggris</span>
+                                <span>Menengah</span>
+                            </div>
+                            <div class="w-full bg-white/10 h-1.5 rounded-full overflow-hidden">
+                                <div class="bg-blue-400 h-full w-[65%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </aside>
+
+        <!-- Konten Utama Kanan -->
+        <main class="flex-1 p-8 md:p-12 space-y-10">
+            
+            <!-- Tentang Diri -->
+            <section>
+                <div class="inline-block bg-blue-100 text-blue-700 px-4 py-1 rounded-md text-sm font-bold mb-4">PROFIL</div>
+                <h2 class="text-3xl font-bold text-slate-800 mb-4">Tentang Saya</h2>
+                <p class="text-slate-600 leading-relaxed text-lg">
+                    Fresh graduate IPS dari <span class="font-semibold text-blue-700">SMA KARYA PEMBANGUNAN BALEENDAH</span> yang berorientasi pada pelayanan pelanggan. Saya adalah pribadi yang senang mempelajari hal-hal baru dan mampu beradaptasi dengan cepat di lingkungan kerja baru. Dengan kemampuan komunikasi yang baik, saya memiliki keinginan kuat untuk berkontribusi meningkatkan kualitas pelayanan perusahaan demi mencapai kepuasan pelanggan yang maksimal.
+                </p>
+            </section>
+
+            <!-- Keahlian Utama -->
+            <section>
+                <div class="inline-block bg-blue-100 text-blue-700 px-4 py-1 rounded-md text-sm font-bold mb-4">KEAHLIAN</div>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-badge"><i class="fas fa-users mr-2"></i>Kerja Sama Tim</span>
+                    <span class="skill-badge"><i class="fas fa-check-circle mr-2"></i>Bertanggung Jawab</span>
+                    <span class="skill-badge"><i class="fas fa-comments mr-2"></i>Komunikatif</span>
+                    <span class="skill-badge"><i class="fas fa-clock mr-2"></i>Siap Kerja 3 Shift</span>
+                    <span class="skill-badge"><i class="fas fa-bolt mr-2"></i>Kerja di Bawah Tekanan</span>
+                </div>
+            </section>
+
+            <!-- Pendidikan -->
+            <section>
+                <div class="inline-block bg-blue-100 text-blue-700 px-4 py-1 rounded-md text-sm font-bold mb-6">PENDIDIKAN</div>
+                <div class="relative ml-6 border-l-2 border-slate-200 space-y-8 pb-4">
+                    <div class="relative pl-8">
+                        <div class="timeline-dot"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+                            <h3 class="font-bold text-lg text-slate-800">SMA KARYA PEMBANGUNAN BALEENDAH</h3>
+                            <span class="text-blue-600 font-bold bg-blue-50 px-3 py-1 rounded-lg text-sm">2026 (Lulus)</span>
+                        </div>
+                        <p class="text-slate-500">Jurusan Ilmu Pengetahuan Sosial (IPS)</p>
+                    </div>
+
+                    <div class="relative pl-8">
+                        <div class="timeline-dot bg-slate-400"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+                            <h3 class="font-bold text-lg text-slate-800">SMP (Sekolah Menengah Pertama)</h3>
+                            <span class="text-slate-500 font-semibold text-sm">Lulus 2023</span>
+                        </div>
+                    </div>
+
+                    <div class="relative pl-8">
+                        <div class="timeline-dot bg-slate-400"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+                            <h3 class="font-bold text-lg text-slate-800">SD (Sekolah Dasar)</h3>
+                            <span class="text-slate-500 font-semibold text-sm">Lulus 2020</span>
+                        </div>
+                    </div>
+
+                    <div class="relative pl-8">
+                        <div class="timeline-dot bg-slate-300"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+                            <h3 class="font-bold text-lg text-slate-700">TK & PAUD</h3>
+                            <span class="text-slate-400 font-semibold text-sm">2013 - 2014</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pernyataan Siap Kerja -->
+            <div class="bg-blue-600 rounded-2xl p-6 text-white flex items-center gap-6 shadow-xl">
+                <div class="text-4xl hidden sm:block opacity-50">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <div>
+                    <p class="font-medium italic leading-relaxed">
+                        "Saya siap memberikan dedikasi penuh dan performa terbaik untuk mendukung visi perusahaan Anda."
+                    </p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="text-center mt-12 pb-10">
+        <p class="text-slate-400 text-xs tracking-widest uppercase mb-2">&copy; 2026 Azula Zurel Alexa</p>
+        <div class="flex justify-center gap-4 text-slate-300">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </footer>
+
+</body>
+</html>
